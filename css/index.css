@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #97D9E1 0%,#D8AFD9 100%);
+    padding: 15px 10px;
+    
+}
+
+nav .nav-left-section{
+   
+   
+    background: -webkit-linear-gradient(#FF8001, #7E0202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-left-section img{
+    width: 10%;
+}
+nav .nav-right-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+
+.nav-right-section a{
+    color: #7E0202;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-right-section .vr{
+    border-left: 3px solid #7E0202;
+    height: 20px;
+    margin: 0 10px;
+}
+
+header{
+   
+    background: linear-gradient(to right, #FBD665 0%,#FF61C8 100%);
+    text-align: center;
+    padding: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-family: 'DynaPuff', cursive;
+}
+
+header a:hover{
+    color: white;
+}
+
+main{
+    background: url('https://practice-cw.netlify.app/img/banner.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    height: 80vh;
+}
+
+main .main-left-section{
+    position: absolute;
+    left: 12%;
+    top: 33%;
+}
+
+.main-left-section h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.main-left-section p{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.main-left-section a{
+    text-decoration: none;
+    color: black;
+    background-color: #FF61C8;
+    
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.main-left-section a:hover{
+    
+    opacity: .6;
+}
+
+footer{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+footer p{
+    margin: 15px 0;
+}
+
+.flex-section{
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50% 50%;
+    padding: 5px 10px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.flex-section:hover{
+    outline: 2px solid red;
+    outline-offset: 5px;
+    color: black;
+}
